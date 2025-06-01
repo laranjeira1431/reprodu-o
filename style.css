@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(11, 0, 22);
+    height: 9000px;
+}
+
+#tela-fundo{
+    height: 95vh;
+    background-image: url(img/h1_hero1.jpg);
+    background-color: rgb(0, 0, 0, 45%);
+    background-blend-mode: multiply;
+}
+
+header>img{
+    margin-left: 15%;
+    margin-top: 4.5vh;
+    margin-bottom: 4.5vh;
+    vertical-align: middle;
+}
+
+.telefone{
+    font-family:"Questrial", sans-serif;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35%;
+}
+
+.btn-free{
+    font-family: "Questrial", sans-serif;
+    color:#E9E3D9;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 3%;
+    background-color: #d6a04c;
+    border:solid 1px #d6a04c;
+    padding: 14px 24px;
+    transition: 0.6s;
+}
+
+.btn-free:hover{
+    background-color: transparent;
+    border: solid #d6a04c 1px;
+    color: #d6a04c;
+}
+
+#menu{
+    width: 2%;
+    margin-left: 2%;
+    display: inline-block;
+}
+
+#menu>span{
+    border: solid white 1px;
+    width: 90%;
+    display: inline-block;
+    margin-top: 3px;
+}
+
+#texto{
+    color: #E9E3D9;
+    font-family: "Questrial", sans-serif;
+    text-decoration: none;
+    margin-left: 22%;
+    margin-top: 10%;
+    width: 600px;
+}
+#tl2{
+    font-size: 60px;
+    width: 500px;
+    font-weight: 100;
+    margin-top: 2%;
+    line-height: 77px;
+}
+#video{
+    position: absolute;
+    right: 10%;
+    top: 45%;
+    width: 400px;
+    color:#E9E3D9;
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+}
+
+#txt-play{
+    margin-right: 15%;
+}
+
+#btn-play svg { 
+    fill: #d6a04c;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#btn-play{
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: #E9E3D9;
+    position: relative;
+    vertical-align: middle;
+    border-radius: 50%;
+    transition: 0.5s;
+    
+}
+
+#btn-play::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 72px;
+    border-radius: 50%;
+    height: 72px;
+    border: solid #d6a04c 1px;
+  
+}
+
+#btn-play::before{
+    
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: solid rgba(255, 255, 255, 8%) 25px;
+
+}
+
+#btn-play:hover{
+    background-color: #d6a04c;
+}
+
+#btn-mouse svg { 
+    height: 40px;
+    fill: #d6a04c;
+}
+
+#btn-mouse {
+    display: inline-block;
+    position: absolute;
+    left: 22%;
+    top: 82%;
+}
+
+#cjt-block-home{
+    display: inline-block;
+    position: absolute;
+    right: 0%;
+    top: 80.5%;
+    background-color: #d6a04c;
+    height: 115px;
+    width: 900px;
+}
+
+#txt-block-1{
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    color:#E9E3D9 ;
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    left: 5%;
+    top: 35%;
+}
+
+#txt-block-2{
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    color: #E9E3D9;
+    display: inline-block;
+    width: 300px;
+    position: absolute;
+    right: 20%;
+    top: 35%;
+}
+
+#txt-about{
+    font-family: "Questrial", sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 107%;
+    left: 16%;
+    transition: 1s;
+}
+
+#cjt-txt-about{
+    position: absolute;
+    top: 118%;
+    left: 22%;
+    width: 1300px;
+}
+
+#cjt-left{
+    position: absolute;
+    
+}
+#txt-left{
+    color: #E9E3D9;
+    font-family: "Questrial", sans-serif;
+    font-size: 28px;
+    width: 450px;
+    line-height: 40px;
+}
+
+#img-loiro{
+    margin-top: 8%;
+}
+
+#cjt-right{
+    position: absolute;
+    right: 30%;
+}
+
+#txt-right{
+    color: #E9E3D9;
+    font-family: "Questrial", sans-serif;
+    font-size: 18px;
+    width: 405px;
+    line-height: 25px;
+}
+
+#btn-more{
+    font-family: "Questrial", sans-serif;
+    color:#E9E3D9;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: transparent;
+    border:solid 1px #d6a04c;
+    padding: 20px 30px;
+    transition: 0.6s;
+    position: absolute;
+    top: 130%;
+    left: 0%;
+}
+
+#btn-more:hover{
+    background-color:#d6a04c;
+    border: solid #d6a04c 1px;
+}
+
+#img-chapeu{
+    position: absolute;
+    top: 198%;
+}
+
+#txt-what{
+    font-family: "Questrial", sans-serif;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 215%;
+    left: 13%;
+    width: 400px;
+}
+
+#cjt-img-1{
+    position: absolute;
+    top: 235%;
+    left: 13%;
+    transition: 0.6s;
+}
+
+#cjt-img-1:hover{
+    top: 240%;
+}
+
+#cjt-img-2{
+    position: absolute;
+    top: 235%;
+    left: 38%;
+    transition: 0.6s;
+}
+
+#cjt-img-2:hover{
+    top: 240%;
+}
+
+#cjt-img-3{
+    position: absolute;
+    top: 235%;
+    left: 63%;
+    transition: 0.6s;
+}
+
+#cjt-img-3:hover{
+    top: 240%;
+}
+
+.txt1{
+    color: #E9E3D9;
+    font-family: "Cabin",sans-serif;
+    font-size: 40px;
+    position: absolute;
+    top: 105%;
+}
+
+.txt2{
+    color: #E9E3D9;
+    font-family: "Questrial",sans-serif;
+    font-size: 20px;
+    position: absolute;
+    top: 128%;
+}
+
+#block-cinza{
+    background-color: #1E1E1E;
+    width: 1689px;
+    height: 965px;
+    position: absolute;
+    top: 320%;
+}
+
+#txt-project{
+    font-size: 250px;
+    font-family: "Cabin", sans-serif;
+    -webkit-text-stroke: 1px #E9E3D9;
+    -webkit-text-fill-color: transparent;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+#img-project{
+    position: absolute;
+    left: 10%;
+    top: 29.5%;
+}
+
+#block-casa{
+    background-color: #d6a04c;
+    position: absolute;
+    width: 750px;
+    top: 423%;
+    left: 10%;
+    height: 30%;
+    transition: 0.6s;
+}
+
+#block-casa:hover{
+    background-color: #1E1E1E;
+}
+
+#txt1-casa{
+    font-size: 40px;
+    font-family: "Cabin", sans-serif;
+    width: 500px;
+    margin-left: 10%;
+    margin-top: 5%;
+    color:#E9E3D9;
+}
+
+#txt2-casa{
+    font-family: "Questrial",sans-serif;
+    font-size: 20px;
+    color: #E9E3D9;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+#block-why{
+    position: absolute;
+    top: 490%;
+    left: 10%;
+    width: 1000px;
+}
+
+#txt-why{
+    color:#E9E3D9;
+    position: absolute;
+    top: 1%;
+    font-size: 50px;
+    font-family: "Cabin", sans-serif;
+    right: 4%;
+}
